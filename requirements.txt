@@ -1,3 +1,4 @@
+httpx
 curl-cffi
 fake-useragent
 colorama
