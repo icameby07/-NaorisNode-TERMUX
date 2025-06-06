@@ -23,7 +23,7 @@ class NaorisProtocol:
             "Sec-Fetch-Mode": "cors",
             "Sec-Fetch-Site": "none",
             "Sec-Fetch-Storage-Access": "active",
-            "User-Agent": FakeUserAgent().random
+            "User-Agent": random.choice(USER_AGENTS)
         }
         self.BASE_API = "https://naorisprotocol.network"
         self.PING_API = "https://beat.naorisprotocol.network"
