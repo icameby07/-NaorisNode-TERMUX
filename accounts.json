@@ -1,0 +1,10 @@
+[
+    {
+        "Address": "your_naoris_wallet_address_1",
+        "deviceHash": "your_device_hash"
+    },
+    {
+        "Address": "your_naoris_wallet_address_2",
+        "deviceHash": "your_device_hash"
+    }
+]
