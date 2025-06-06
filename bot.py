@@ -4,6 +4,13 @@ from datetime import datetime
 from colorama import *
 import asyncio, json, os, pytz
 
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/115.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) Firefox/115.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Safari/537.36",
+    # Tambahkan jika perlu
+]
+
 wib = pytz.timezone('Asia/Jakarta')
 
 class NaorisProtocol:
