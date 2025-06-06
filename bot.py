@@ -1,5 +1,5 @@
-from curl_cffi import requests
-from fake_useragent import FakeUserAgent
+import httpx
+import random
 from datetime import datetime
 from colorama import *
 import asyncio, json, os, pytz
